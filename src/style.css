@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #2F2F2F;
+    max-height: 803px;
+}
+
+.navbar {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.navbar-ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-a {
+    padding-left: 30px;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25.60px;
+    opacity: 0.60;
+}
+
+.navbar-a:hover {
+    opacity: 1;
+    transition: 0.5s;
+
+}
+
+.navbar-btn {
+    cursor: pointer;
+    margin-left: 40px;
+    padding: 15px 30px;
+    background: #F59B00;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 19.20px;
+}
+
+.navbar-btn:hover {
+    color: #F59B00;
+    background-color: white;
+    transition: 0.8s;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-p1 {
+    color: #F59B00;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.header-h1 {
+    padding-top: 10px;
+    color: white;
+    font-size: 61px;
+    font-family: Poppins;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 79.30px;
+}
+
+.header-p2 {
+    padding-top: 25px;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25.60px;
+    opacity: 0.70;
+}
+
+.header-btn2 {
+    cursor: pointer;
+    position: absolute;
+    margin-top: 35px;
+    padding: 15px 30px;
+    background: #F59B00;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 19.20px;
+}
+
+.header-btn2:hover {
+    color: #F59B00;
+    background-color: white;
+    transition: 0.8s;
+}
+
+
+.teleg {
+    margin: 60px 0 0 200px;
+}
+
+
+/* header finished */
+
+
+
+/* body started */
+.body {
+    padding-top: 130px;
+}
+
+
+.body-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body-a {
+    padding: 30px 0;
+    color: #2F2F2F;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.body-a:hover {
+    border-bottom: 5px solid #F59B00;
+    transition: 0.4s;
+
+}
+
+.body-bags {
+    padding-top: 127px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-bag {
+    text-align: center;
+    border-radius: 10px;
+    border: 0.50px #A3A3A3 solid;
+}
+
+.body-about {
+    padding-top: 130px;
+    display: flex;
+    align-items: center;
+
+}
+
+.body-photo {
+    max-width: 600px;
+}
+
+.body-side2 {
+    padding-left: 83px;
+}
+
+.body-p {
+    color: #F59B00;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.body-p2 {
+    padding-top: 10px;
+    color: #2F2F2F;
+    font-size: 31px;
+    font-family: Poppins;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 43.40px;
+}
+
+.body-p3 {
+    padding-top: 24px;
+    color: #2F2F2F;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25.60px;
+}
+
+.body-btn {
+    margin-top: 35px;
+    padding: 15px 30px;
+    background: #F59B00;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 19.20px;
+    cursor: pointer;
+}
+
+.body-btn:hover {
+    color: #F59B00;
+    background-color: white;
+    transition: 0.8s;
+}
+
+.product {
+    padding-top: 130px;
+}
+
+.product-texts {
+    text-align: center;
+}
+
+.product-h1 {
+
+    color: #2F2F2F;
+    font-size: 31px;
+    font-family: Poppins;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 43.40px;
+}
+
+.product-p {
+    padding-top: 25px;
+    color: #2F2F2F;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25.60px;
+}
+
+.product-img {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-1 {
+    background-color: #FDEEF1;
+    border-radius: 10px;
+    border: 1px #FDEEF1 solid;
+    width: 264px;
+    height: 260px;
+}
+
+.product-2 {
+    background-color: #FFE1E8;
+    border-radius: 10px;
+    border: 1px #FDEEF1 solid;
+    width: 264px;
+    height: 260px;
+}
+
+.product-3 {
+    background-color: #F9DCFF;
+    border-radius: 10px;
+    border: 1px #FDEEF1 solid;
+    width: 264px;
+    height: 260px;
+}
+
+.product-4 {
+    background-color: #FFDEE7;
+    border-radius: 10px;
+    border: 1px #FDEEF1 solid;
+    width: 264px;
+    height: 260px;
+}
+
+.product-img2 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-5 {
+    background-color: #ECF1FF;
+    border-radius: 10px;
+    border: 1px #FDEEF1 solid;
+    width: 264px;
+    height: 260px;
+}
+
+.product-6 {
+    background-color: #FADADE;
+    border-radius: 10px;
+    border: 1px #FDEEF1 solid;
+    width: 264px;
+    height: 260px;
+}
+
+.product-7 {
+    background-color: #D9E6FE;
+    border-radius: 10px;
+    border: 1px #FDEEF1 solid;
+    width: 264px;
+    height: 260px;
+}
+
+
+.product-8 {
+    background-color: #EBF4BF;
+    border-radius: 10px;
+    border: 1px #FDEEF1 solid;
+    width: 264px;
+    height: 260px;
+}
+
+.product-for-btn {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.product-btn {
+    cursor: pointer;
+    padding: 15px 30px;
+    color: #F59B00;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 19.20px;
+    border-radius: 5px;
+    border: 0.50px rgba(245, 155, 0, 0.20) solid;
+    background: none;
+}
+
+.product-btn:hover {
+    background: #F59B00;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.card {
+    padding-top: 150px;
+}
+
+.card-big {
+    display: flex;
+    width: 1146px;
+    height: 549px;
+    background: #2F2F2FF2;
+    box-shadow: 0px 0px 30px 4px rgba(231.63, 231.63, 231.63, 0.40);
+    border-radius: 10px
+}
+
+.card-block1{
+    border-radius: 5px;
+}
+
+.card-h1 {
+    color: white;
+    font-size: 31px;
+    font-family: Poppins;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 43.40px;
+}
+
+.card-block2{
+    padding-top: 100px;
+    padding-left: 70px;
+}
+
+.card-form{
+    padding-top: 44px;
+}
+
+
+.card-name {
+
+    padding: 18px 20px 18px 30px;
+    background: none;
+    opacity: 0.25;
+    border-radius: 10px;
+    border: 0.50px white solid;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 19.20px;
+}
+
+.card-email {
+    margin-left: 50px;
+    padding: 18px 20px 18px 30px;
+    background: none;
+    opacity: 0.25;
+    border-radius: 10px;
+    border: 0.50px white solid;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 19.20px;
+}
+
+.card-address{
+    margin-top: 30px;
+    padding: 18px 320px 18px 30px;
+    background: none;
+    opacity: 0.25;
+    border-radius: 10px;
+    border: 0.50px white solid;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 19.20px;
+}
+
+.card-for-check{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.card-label{
+    margin-left: 5px;
+    color: white;
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+text-transform: capitalize;
+line-height: 25.60px;
+opacity: 0.25;
+}
+
+.card-btn{
+    margin-left: 50px;
+    padding: 15px 30px;
+    background: #F59B00;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 19.20px;
+    cursor: pointer;
+}
+
+
+.after-card{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+    padding-top: 100px;
+}
